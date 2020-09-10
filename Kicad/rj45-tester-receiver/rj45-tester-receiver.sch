@@ -1,0 +1,395 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Receiver RJ45 tester"
+Date "2020-09-09"
+Rev "1.0"
+Comp "Beeware"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:RJ45 J?
+U 1 1 5F5D1739
+P 3650 3600
+F 0 "J?" H 3707 4267 50  0000 C CNN
+F 1 "RJ45" H 3707 4176 50  0000 C CNN
+F 2 "" V 3650 3625 50  0001 C CNN
+F 3 "~" V 3650 3625 50  0001 C CNN
+	1    3650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F5D1E03
+P 5650 2350
+F 0 "D?" H 5600 2250 50  0000 C CNN
+F 1 "LED" H 5750 2250 50  0000 C CNN
+F 2 "" H 5650 2350 50  0001 C CNN
+F 3 "~" H 5650 2350 50  0001 C CNN
+	1    5650 2350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D230C
+P 5650 2600
+F 0 "D?" H 5700 2700 50  0000 C CNN
+F 1 "D" H 5600 2700 50  0000 C CNN
+F 2 "" H 5650 2600 50  0001 C CNN
+F 3 "~" H 5650 2600 50  0001 C CNN
+	1    5650 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2350 5900 2350
+Wire Wire Line
+	5900 2350 5900 2600
+Wire Wire Line
+	5900 2600 5800 2600
+$Comp
+L Device:LED D?
+U 1 1 5F5D4785
+P 5650 2850
+F 0 "D?" H 5600 2750 50  0000 C CNN
+F 1 "LED" H 5750 2750 50  0000 C CNN
+F 2 "" H 5650 2850 50  0001 C CNN
+F 3 "~" H 5650 2850 50  0001 C CNN
+	1    5650 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D478B
+P 5650 3100
+F 0 "D?" H 5700 3200 50  0000 C CNN
+F 1 "D" H 5600 3200 50  0000 C CNN
+F 2 "" H 5650 3100 50  0001 C CNN
+F 3 "~" H 5650 3100 50  0001 C CNN
+	1    5650 3100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2850 5900 2850
+Wire Wire Line
+	5900 2850 5900 3100
+Wire Wire Line
+	5900 3100 5800 3100
+$Comp
+L Device:LED D?
+U 1 1 5F5D51BB
+P 5650 3350
+F 0 "D?" H 5600 3250 50  0000 C CNN
+F 1 "LED" H 5750 3250 50  0000 C CNN
+F 2 "" H 5650 3350 50  0001 C CNN
+F 3 "~" H 5650 3350 50  0001 C CNN
+	1    5650 3350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D51C1
+P 5650 3600
+F 0 "D?" H 5700 3700 50  0000 C CNN
+F 1 "D" H 5600 3700 50  0000 C CNN
+F 2 "" H 5650 3600 50  0001 C CNN
+F 3 "~" H 5650 3600 50  0001 C CNN
+	1    5650 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3350 5900 3350
+Wire Wire Line
+	5900 3350 5900 3600
+Wire Wire Line
+	5900 3600 5800 3600
+$Comp
+L Device:LED D?
+U 1 1 5F5D5C21
+P 5650 3850
+F 0 "D?" H 5600 3750 50  0000 C CNN
+F 1 "LED" H 5750 3750 50  0000 C CNN
+F 2 "" H 5650 3850 50  0001 C CNN
+F 3 "~" H 5650 3850 50  0001 C CNN
+	1    5650 3850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D5C27
+P 5650 4100
+F 0 "D?" H 5700 4200 50  0000 C CNN
+F 1 "D" H 5600 4200 50  0000 C CNN
+F 2 "" H 5650 4100 50  0001 C CNN
+F 3 "~" H 5650 4100 50  0001 C CNN
+	1    5650 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 3850 5900 3850
+Wire Wire Line
+	5900 3850 5900 4100
+Wire Wire Line
+	5900 4100 5800 4100
+$Comp
+L Device:LED D?
+U 1 1 5F5D5F11
+P 5650 4350
+F 0 "D?" H 5600 4250 50  0000 C CNN
+F 1 "LED" H 5750 4250 50  0000 C CNN
+F 2 "" H 5650 4350 50  0001 C CNN
+F 3 "~" H 5650 4350 50  0001 C CNN
+	1    5650 4350
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D5F17
+P 5650 4600
+F 0 "D?" H 5700 4700 50  0000 C CNN
+F 1 "D" H 5600 4700 50  0000 C CNN
+F 2 "" H 5650 4600 50  0001 C CNN
+F 3 "~" H 5650 4600 50  0001 C CNN
+	1    5650 4600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4350 5900 4350
+Wire Wire Line
+	5900 4350 5900 4600
+Wire Wire Line
+	5900 4600 5800 4600
+$Comp
+L Device:LED D?
+U 1 1 5F5D653C
+P 5650 4850
+F 0 "D?" H 5600 4750 50  0000 C CNN
+F 1 "LED" H 5750 4750 50  0000 C CNN
+F 2 "" H 5650 4850 50  0001 C CNN
+F 3 "~" H 5650 4850 50  0001 C CNN
+	1    5650 4850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5D6542
+P 5650 5100
+F 0 "D?" H 5700 5200 50  0000 C CNN
+F 1 "D" H 5600 5200 50  0000 C CNN
+F 2 "" H 5650 5100 50  0001 C CNN
+F 3 "~" H 5650 5100 50  0001 C CNN
+	1    5650 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 4850 5900 4850
+Wire Wire Line
+	5900 4850 5900 5100
+Wire Wire Line
+	5900 5100 5800 5100
+Wire Wire Line
+	5900 5600 5800 5600
+Wire Wire Line
+	5900 5350 5900 5600
+Wire Wire Line
+	5800 5350 5900 5350
+$Comp
+L Device:D D?
+U 1 1 5F5D6A23
+P 5650 5600
+F 0 "D?" H 5700 5700 50  0000 C CNN
+F 1 "D" H 5600 5700 50  0000 C CNN
+F 2 "" H 5650 5600 50  0001 C CNN
+F 3 "~" H 5650 5600 50  0001 C CNN
+	1    5650 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:LED D?
+U 1 1 5F5D6A1D
+P 5650 5350
+F 0 "D?" H 5600 5250 50  0000 C CNN
+F 1 "LED" H 5750 5250 50  0000 C CNN
+F 2 "" H 5650 5350 50  0001 C CNN
+F 3 "~" H 5650 5350 50  0001 C CNN
+	1    5650 5350
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5900 2600 5900 2850
+Connection ~ 5900 2600
+Connection ~ 5900 2850
+Wire Wire Line
+	5900 3100 5900 3350
+Connection ~ 5900 3100
+Connection ~ 5900 3350
+Wire Wire Line
+	5900 3600 5900 3850
+Connection ~ 5900 3600
+Connection ~ 5900 3850
+Wire Wire Line
+	5900 4100 5900 4350
+Connection ~ 5900 4100
+Connection ~ 5900 4350
+Wire Wire Line
+	5900 4600 5900 4850
+Connection ~ 5900 4600
+Connection ~ 5900 4850
+Wire Wire Line
+	5900 5100 5900 5350
+Connection ~ 5900 5100
+Connection ~ 5900 5350
+Wire Wire Line
+	5500 2350 5350 2350
+Wire Wire Line
+	5350 2600 5500 2600
+Wire Wire Line
+	5500 2850 5350 2850
+Wire Wire Line
+	5350 3100 5500 3100
+Wire Wire Line
+	5500 3350 5350 3350
+Wire Wire Line
+	5350 3600 5500 3600
+Wire Wire Line
+	5500 3850 5350 3850
+Wire Wire Line
+	5350 3850 5350 3950
+Wire Wire Line
+	5350 4100 5500 4100
+Wire Wire Line
+	5500 4350 5350 4350
+Wire Wire Line
+	5350 4350 5350 4450
+Wire Wire Line
+	5350 4600 5500 4600
+Wire Wire Line
+	5500 4850 5350 4850
+Wire Wire Line
+	5350 4850 5350 4950
+Wire Wire Line
+	5350 5100 5500 5100
+Wire Wire Line
+	5500 5350 5350 5350
+Wire Wire Line
+	5350 5350 5350 5450
+Wire Wire Line
+	5350 5600 5500 5600
+Wire Wire Line
+	4050 3900 4150 3900
+Wire Wire Line
+	4150 3900 4150 5450
+Wire Wire Line
+	4150 5450 5350 5450
+Connection ~ 5350 5450
+Wire Wire Line
+	5350 5450 5350 5600
+Wire Wire Line
+	5350 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 3800
+Wire Wire Line
+	4250 3800 4050 3800
+Connection ~ 5350 4950
+Wire Wire Line
+	5350 4950 5350 5100
+Wire Wire Line
+	4050 3700 4350 3700
+Wire Wire Line
+	4350 3700 4350 4450
+Wire Wire Line
+	4350 4450 5350 4450
+Connection ~ 5350 4450
+Wire Wire Line
+	5350 4450 5350 4600
+Wire Wire Line
+	5350 3950 4500 3950
+Wire Wire Line
+	4500 3950 4500 3600
+Wire Wire Line
+	4500 3600 4050 3600
+Connection ~ 5350 3950
+Wire Wire Line
+	5350 3950 5350 4100
+Wire Wire Line
+	5350 3350 5350 3500
+Wire Wire Line
+	5350 2850 5350 2950
+Wire Wire Line
+	5350 2350 5350 2450
+$Comp
+L Device:LED D?
+U 1 1 5F5F8D46
+P 5650 1850
+F 0 "D?" H 5600 1750 50  0000 C CNN
+F 1 "LED" H 5750 1750 50  0000 C CNN
+F 2 "" H 5650 1850 50  0001 C CNN
+F 3 "~" H 5650 1850 50  0001 C CNN
+	1    5650 1850
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:D D?
+U 1 1 5F5F8D4C
+P 5650 2100
+F 0 "D?" H 5700 2200 50  0000 C CNN
+F 1 "D" H 5600 2200 50  0000 C CNN
+F 2 "" H 5650 2100 50  0001 C CNN
+F 3 "~" H 5650 2100 50  0001 C CNN
+	1    5650 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 1850 5900 1850
+Wire Wire Line
+	5900 1850 5900 2100
+Wire Wire Line
+	5900 2100 5800 2100
+Wire Wire Line
+	5500 1850 5350 1850
+Wire Wire Line
+	5350 2100 5500 2100
+Wire Wire Line
+	5350 1850 5350 1950
+Wire Wire Line
+	5900 2100 5900 2350
+Connection ~ 5900 2100
+Connection ~ 5900 2350
+Wire Wire Line
+	4050 3500 5350 3500
+Connection ~ 5350 3500
+Wire Wire Line
+	5350 3500 5350 3600
+Wire Wire Line
+	4150 3200 4050 3200
+Wire Wire Line
+	4150 3200 4150 1950
+Wire Wire Line
+	4150 1950 5350 1950
+Connection ~ 5350 1950
+Wire Wire Line
+	5350 1950 5350 2100
+Wire Wire Line
+	5350 2450 4250 2450
+Wire Wire Line
+	4250 2450 4250 3300
+Wire Wire Line
+	4250 3300 4050 3300
+Connection ~ 5350 2450
+Wire Wire Line
+	5350 2450 5350 2600
+Wire Wire Line
+	4050 3400 4350 3400
+Wire Wire Line
+	4350 3400 4350 2950
+Wire Wire Line
+	4350 2950 5350 2950
+Connection ~ 5350 2950
+Wire Wire Line
+	5350 2950 5350 3100
+$EndSCHEMATC
