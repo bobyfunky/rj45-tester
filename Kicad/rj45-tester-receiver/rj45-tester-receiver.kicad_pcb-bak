@@ -126,11 +126,11 @@
   )
 
   (module Logo:logo_20mm (layer B.Cu) (tedit 0) (tstamp 5F605D98)
-    (at 123.6 79.8 180)
-    (fp_text reference G*** (at 0 0) (layer B.SilkS) hide
+    (at 123 79.5 270)
+    (fp_text reference G*** (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
-    (fp_text value LOGO (at 0.75 0) (layer B.SilkS) hide
+    (fp_text value LOGO (at 0.75 0 90) (layer B.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
     )
     (fp_poly (pts (xy -1.087914 6.337425) (xy -1.058561 6.310526) (xy -1.012917 6.267208) (xy -0.952246 6.208711)
@@ -551,14 +551,14 @@
   )
 
   (module Symbol:OSHW-Symbol_6.7x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5F605D57)
-    (at 118.1 95.9 180)
+    (at 119.1 95.7 270)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
-    (fp_text reference REF** (at 0 0) (layer B.SilkS) hide
+    (fp_text reference REF** (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value OSHW-Symbol_6.7x6mm_SilkScreen (at 0.75 0) (layer B.Fab) hide
+    (fp_text value OSHW-Symbol_6.7x6mm_SilkScreen (at 0.75 0 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_poly (pts (xy 0.555814 2.531069) (xy 0.639635 2.086445) (xy 0.94892 1.958947) (xy 1.258206 1.831449)
@@ -649,14 +649,14 @@
   )
 
   (module Symbol:WEEE-Logo_4.2x6mm_SilkScreen (layer B.Cu) (tedit 0) (tstamp 5F605CB0)
-    (at 130.6 95.8 180)
+    (at 129 97 270)
     (descr "Waste Electrical and Electronic Equipment Directive")
     (tags "Logo WEEE")
     (attr virtual)
-    (fp_text reference REF** (at 0 0) (layer B.SilkS) hide
+    (fp_text reference REF** (at 0 0 90) (layer B.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
-    (fp_text value WEEE-Logo_4.2x6mm_SilkScreen (at 0.75 0) (layer B.Fab) hide
+    (fp_text value WEEE-Logo_4.2x6mm_SilkScreen (at 0.75 0 90) (layer B.Fab) hide
       (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
     )
     (fp_poly (pts (xy 1.747822 -3.017822) (xy -1.772971 -3.017822) (xy -1.772971 -2.150198) (xy 1.747822 -2.150198)
